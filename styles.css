@@ -77,3 +77,39 @@ button {
   padding-left: 10%;
   padding-right: 10%;
 }
+
+#information-header {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.info-image {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.information-area {
+  display: flex;
+  gap: 20px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-box-text {
+  text-align: center;
+  width: 130px;
+}
